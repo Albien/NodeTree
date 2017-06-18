@@ -12,11 +12,11 @@ namespace NS {
 
 
  class PlusNode : Node {
-	int eval() { return leftNode.eval() + rightNode.eval(); }
+	override int eval() { return leftNode.eval() + rightNode.eval(); }
 	}
 
  class MinusNode : Node {
-	int eval() { return leftNode.eval() - rightNode.eval(); }
+	override int eval() { return leftNode.eval() - rightNode.eval(); }
 
  class DelitNode : Node{
 	override int eval(){return leftNode.eval()/rightNode.eval();}
