@@ -14,7 +14,7 @@ namespace NS {
  class PlusNode : Node {
 	override int eval() { return leftNode.eval() + rightNode.eval(); }
 	}
-
+// Еще комментарий
  class MinusNode : Node {
 	override int eval() { return leftNode.eval() - rightNode.eval(); }
 
